@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cristiano Franca" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Estudo DevChallages" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <div class="descktop">
+      <header>
+        <img src="assets/contact-form-icon.svg" alt="" />
+      </header>
+      <section>
+        <h1>Interested in our business pricing?</h1>
+        <h2>
+          Fill out the form to view details and we’ll contact you as soon as
+          possible.
+        </h2>
+      </section>
+      <form action="">
+        <div class="top">
+        <label for="name"
+          >Name
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Ethan Johnson"
+          />
+        </label>
+        <label for="email"
+          >Company Email
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="ethan@johnson.com"
+          />
+        </label>
+        </div>
+        <div class="bottom">
+        <label for="company">Company Size
+          <select name="Company" id="company" title="company">
+            <option value="50-100 employees">50-100 employees</option>
+          </select>
+        </label>
+        <label for="subject"
+          >Subject
+          <select name="subject" id="subject" title="subject">
+            <option value="50-100 employees">Building Landing pages</option>
+            <img src="./assets/Expand_down.svg" alt="" class="seta" />
+          </select>
+        </label>
+        </div>
+        <label for="mensagem"
+          >Mensagem
+          <textarea
+            name="mengagem"
+            id="mensagem"
+            cols="30"
+            rows="10"
+            placeholder="50-100 employees"
+          ></textarea>
+        </label>
+        <button type="button" title="contact">Contact Sales</button>
+      </form>
+    </div>
+  </body>
+</html>

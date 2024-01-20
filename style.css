@@ -1,0 +1,125 @@
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .descktop {
+    width: 900px;
+    height: auto;
+    background-image: url(assets/bg-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 80px 80px;
+  }
+  header {
+    width: 100%;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+  }
+  .top,
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+  }
+  h1 {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    width: auto;
+    margin: 0;
+  }
+  h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    width: 700px;
+  }
+  form {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 30px;
+    margin-top: 5px;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 14px;
+    width: 100%;
+  }
+  input,
+  textarea {
+    border-radius: 20px;
+    border: none;
+    padding: 20px 0;
+    text-indent: 20px;
+    margin-top: 10px;
+    outline: none;
+  }
+  select {
+    border-radius: 20px;
+    border: none;
+    text-indent: 20px;
+    padding: 20px 0;
+    margin-top: 10px;
+    outline: none;
+    font-weight: 700;
+    appearance: none;
+    background-image: url(assets/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 290px;
+  }
+  input {
+    color: #cdd5e0;
+  }
+  button {
+    border-radius: 20px;
+    border: none;
+    padding: 20px 0;
+    cursor: pointer;
+    color: #4036a9;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  textarea::placeholder {
+    font-weight: 700;
+    color: black;
+  }
+  @media only screen and (max-width: 1280px) {
+    .descktop {
+      width: 100%;
+    }
+    form {
+      width: 100%;
+      height: auto;
+    }
+    h1,
+    h2 {
+      width: 100%;
+    }
+    section {
+      width: 100%;
+    }
+  }
+  
